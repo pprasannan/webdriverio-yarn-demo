@@ -20,7 +20,7 @@ $ yarn install
 
 ### Running Tests
 
-* Run tests locally
+* To run tests
 ```
 $ yarn test
 ```
