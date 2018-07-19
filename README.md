@@ -25,7 +25,7 @@ $ yarn install
 $ yarn test
 ```
 
-* Run a single test
+* Run a single test (if you use the same folder structure)
 ```
 $ yarn run test -- --spec tests/folder/filename.js
 ```
