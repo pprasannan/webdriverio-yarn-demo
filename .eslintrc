@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb-base",
+  "globals": {
+    "expect": true,
+    "before": true,
+    "describe": true,
+    "it": true,
+    "$": true,
+    "$$": true,
+    "after": true,
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "comma-dangle": ["error", "never"]
+  }
+}
