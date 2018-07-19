@@ -5,6 +5,7 @@
   "main": "",
   "repository": "https://github.com/praveenprasannan/yarn-demo-js",
   "author": "Praveen Prasannan",
+  "license": "MIT",
   "private": false,
   "scripts": {
     "test": "./node_modules/.bin/wdio wdio.conf.js"
