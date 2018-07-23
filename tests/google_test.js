@@ -8,8 +8,7 @@ describe('Google Tests', () => {
   });
 
   it('should do a search to get results', () => {
-
-    HomePage.doASearch('sydney');
+    HomePage.doGoogleSearch('sydney');
     expect(HomePage.title()).to.equal('sydney - Google Search');
   });
 });
