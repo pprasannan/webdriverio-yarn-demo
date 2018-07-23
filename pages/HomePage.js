@@ -1,4 +1,5 @@
-import Page from '../pages/Page';
+import Page from './Page';
+import constants from '../shared/constants';
 
 class HomePage extends Page {
   // Page elements
@@ -25,11 +26,11 @@ class HomePage extends Page {
   }
 
   // Helper Methods
-  static doASearch(value) {
+  static doGoogleSearch(value) {
     this.setSearchKey(value);
     this.clickOnSearch();
 
-    return browser.waitUntil(() => this.title().includes(value), 3000, 'expected the search results page which contains the searched value within wait period');
+    return browser.waitUntil(() => this.title().includes(value), constants.BROWSER_WAIT, 'expected the search results page which contains the searched value within wait period');
   }
 }
 
