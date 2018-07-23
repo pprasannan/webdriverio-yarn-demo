@@ -1,9 +1,9 @@
 {
-  "name": "yarn-demo-js",
+  "name": "webdriverio-yarn-demo",
   "version": "0.0.1",
   "description": "Using Yarn instead of NPM for JS testing",
   "main": "",
-  "repository": "https://github.com/praveenprasannan/yarn-demo-js",
+  "repository": "https://github.com/praveenprasannan/webdriverio-yarn-demo",
   "author": "Praveen Prasannan",
   "license": "MIT",
   "private": false,
