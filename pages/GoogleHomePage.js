@@ -4,11 +4,11 @@ import constants from '../shared/constants';
 class HomePage extends Page {
   // Page elements
   static get searchBox() {
-    return browser.element('#lst-ib');
+    return browser.element('#tsf > div:nth-child(2) > div > div.RNNXgb > div > div.a4bIc > input');
   }
 
   static get searchButton() {
-    return browser.element('input[type="submit"]:nth-child(1)');
+    return browser.element('#tsf > div:nth-child(2) > div > div.FPdoLc.VlcLAe > center > input[type="submit"]:nth-child(1)');
   }
 
   // Actions

@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import HomePage from '../pages/HomePage';
+import HomePage from '../pages/GoogleHomePage';
 
 describe('Google Tests', () => {
   it('should open the Google homepage with the expected title', () => {
