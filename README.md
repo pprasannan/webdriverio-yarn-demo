@@ -5,11 +5,14 @@ Uses http://webdriver.io to execute selenium web tests. Tests can be run locally
 ### Environment Setup
 
 1. Global Dependencies
-  * Install [Node.js](https://nodejs.org/en/)
+  * * Install [Node.js](https://nodejs.org/en/)
   ```
   $ brew install node
   ```
   * Install [Yarn](https://yarnpkg.com/lang/en/docs/install/)
+  ```
+  $ brew install yarn
+  ```
 
 2. Project Dependencies
 
