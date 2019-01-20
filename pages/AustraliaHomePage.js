@@ -7,12 +7,15 @@ class AustraliaHomePage extends Page {
     return browser.element('#nav-item-mygov');
   }
 
-  // Helper Methods
-  static doGoogleSearch(value) {
-    this.setSearchKey(value);
-    this.clickOnSearch();
+  static get userIdField() {
+    return browser.element('#userId');
+  }
 
-    return browser.waitUntil(() => this.title().includes(value), constants.BROWSER_WAIT, 'expected the search results page which contains the searched value within wait period');
+  // Helper Methods
+  static clickOnMyGov() {
+    this.itemMyGov.click();
+
+    return browser.waitUntil(() => this.userIdField.isVisible() === true, constants.BROWSER_WAIT, 'expected the page to show the login text field');
   }
 }
 
