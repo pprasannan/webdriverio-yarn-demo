@@ -1,7 +1,7 @@
 import Page from './Page';
 import constants from '../shared/constants';
 
-class HomePage extends Page {
+class GoogleHomePage extends Page {
   // Page elements
   static get searchBox() {
     return browser.element('#tsf > div:nth-child(2) > div > div.RNNXgb > div > div.a4bIc > input');
@@ -20,11 +20,6 @@ class HomePage extends Page {
     return this.searchButton.click();
   }
 
-  // Browser helper methods
-  static title() {
-    return browser.getTitle();
-  }
-
   // Helper Methods
   static doGoogleSearch(value) {
     this.setSearchKey(value);
@@ -34,4 +29,4 @@ class HomePage extends Page {
   }
 }
 
-export default HomePage;
+export default GoogleHomePage;
