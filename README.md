@@ -4,8 +4,8 @@ Uses http://webdriver.io to execute selenium web tests. Tests can be run locally
 
 ### Environment Setup
 
-1. Global Dependencies
-  * * Install [Node.js](https://nodejs.org/en/)
+#### 1. Global Dependencies
+  * Install [Node.js](https://nodejs.org/en/)
   ```
   $ brew install node
   ```
@@ -14,7 +14,7 @@ Uses http://webdriver.io to execute selenium web tests. Tests can be run locally
   $ brew install yarn
   ```
 
-2. Project Dependencies
+#### 2. Project Dependencies
 
 * Install Node modules
 ```
@@ -33,7 +33,7 @@ $ yarn test
 $ yarn test --spec tests/folder/filename.js
 ```
 
-#### Docs & further reading
+### Docs & further reading
 
 * http://webdriver.io
 * http://webdriver.io/guide/usage/selectors.html
